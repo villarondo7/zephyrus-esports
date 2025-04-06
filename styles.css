@@ -516,3 +516,11 @@ nav ul li a:hover {
         text-align: center;
     }
 }
+
+.coming-soon {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc00; /* Amarillo anaranjado */
+    text-align: center;
+    margin-top: 20px;
+}

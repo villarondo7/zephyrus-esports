@@ -57,3 +57,8 @@ const toggleTheme = document.querySelector('#toggle-theme');
 toggleTheme.addEventListener('click', () => {
     document.body.classList.toggle('light-theme');
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const seccionActiva = document.getElementById('ZR');
+  seccionActiva.classList.remove('oculto');
+});
