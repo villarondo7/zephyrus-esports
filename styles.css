@@ -358,7 +358,7 @@ nav ul li a:hover {
 
 .card p {
     font-size: 1rem;
-    color: #ffffff; /* Cambiado a blanco */
+    color: #001f3f; /* Cambiado a blanco */
 }
 
 /* Trofeos */
@@ -523,4 +523,35 @@ nav ul li a:hover {
     color: #ffcc00; /* Amarillo anaranjado */
     text-align: center;
     margin-top: 20px;
+}
+
+.trophy img.trophy-car {
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    max-width: 300px; /* Tamaño máximo para evitar que sea demasiado grande */
+    height: auto; /* Mantiene la proporción de la imagen */
+    margin: 10px auto; /* Centra la imagen y agrega espacio */
+    display: block; /* Asegura que la imagen sea un bloque */
+}
+
+/* Marco para las imágenes en las tarjetas del museo */
+.image-frame {
+    width: 300px; /* Ajusta al tamaño del marco */
+    height: 200px; /* Ajusta al tamaño del marco */
+    background-image: url('images/Otros/marco1.png'); /* Imagen del marco */
+    background-size: cover; /* Asegura que el marco cubra todo el contenedor */
+    background-position: center; /* Centra el marco */
+    position: relative; /* Necesario para posicionar la imagen del coche */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 15px; /* Centra el marco y agrega espacio inferior */
+}
+
+.image-frame img {
+    width: 70%; /* Ajusta el tamaño del coche dentro del marco */
+    height: auto; /* Mantiene la proporción de la imagen */
+    position: absolute; /* Posiciona la imagen dentro del marco */
+    top: 0%; /* Ajusta la posición vertical del coche */
+    left: 0%; /* Ajusta la posición horizontal del coche */
+    z-index: 1; /* Asegura que la imagen esté sobre el fondo del marco */
 }
